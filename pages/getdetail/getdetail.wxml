@@ -1,0 +1,24 @@
+<!--pages/getdetail/getdetail.wxml-->
+<view class="title">
+  <text>酒详细介绍</text>
+</view>
+
+<view class="table">
+  <view class="th">
+    <view class="tr one ">
+      <span>酒名</span>
+    </view>
+    <view class="tr">
+      <span>{{detail.name}}</span>
+    </view>
+  </view>
+
+  <view class="th">
+    <view class="tr one ">
+      <span>价格</span>
+    </view>
+    <view class="tr">
+      <span>{{detail.price}}</span>
+    </view>
+  </view>
+</view>

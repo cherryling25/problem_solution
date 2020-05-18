@@ -1,0 +1,56 @@
+<!--pages/list/list.wxml-->
+<view class="title">
+      <text>容量选择</text>
+    </view>
+    <view class="list">
+      <view wx:for="{{list}}" class="list_one {{currentSelected==item.id?'bgcolor':''}}" bindtap="chooseTap" data-index="{{item.id}}" data-money="{{item.money}}" data-type="0{{item.type}}">
+        <view class="capacity">
+          <span class="number">{{item.number}}ML</span>
+          <span class="text">({{item.text}})</span>
+        </view>
+        <view class="cash">
+          {{item.cash}}元
+        </view>
+      </view>
+
+      <!-- <view class="list_one {{index==1?'bgcolor':''}}" bindtap="chooseTap" data-index="1" data-money="2560" data-type="02">
+        <view class="capacity">
+          <span class="number">100ML</span>
+          <span class="text">(二两)</span>
+        </view>
+        <view class="cash">
+          25.6元
+        </view>
+      </view>
+
+      <view class="list_one {{index==2?'bgcolor':''}}" bindtap="chooseTap" data-index="2" data-money="3840" data-type="03">
+        <view class="capacity">
+          <span class="number">150ML</span>
+          <span class="text">(三两)</span>
+        </view>
+        <view class="cash">
+          38.4元
+        </view>
+      </view>
+
+      <view class="list_one {{index==3?'bgcolor':''}}" bindtap="chooseTap" data-index="3" data-money="6400" data-type="05">
+        <view class="capacity">
+          <span class="number">250ML</span>
+          <span class="text">(五两)</span>
+        </view>
+        <view class="cash">
+          51.2元
+        </view>
+      </view>
+
+      <view class="list_one {{index==4?'bgcolor':''}}" bindtap="chooseTap" data-index="4" data-money="1" data-type="0A">
+        <view class="capacity">
+          <span class="number">500ML</span>
+          <span class="text">(一斤)</span>
+        </view>
+        <view class="cash">
+          64元
+        </view>
+      </view> -->
+
+    </view>

@@ -1,0 +1,214 @@
+/* pages/list/list.wxss */
+
+.pic {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.capacitySelection {
+  width: 90%;
+  justify-content: center;
+}
+
+.capacitySelectionTitle {
+  text-align: left;
+}
+
+.green {
+  border: 0px solid green;
+}
+
+.red {
+  border: 1px solid red;
+  width: 100%;
+  text-align: center;
+}
+
+.blue {
+  border: 1rpx solid blue;
+  width: 100%;
+  text-align: left;
+}
+
+.title {
+  margin: 30rpx;
+  font-weight: bold;
+}
+
+.money {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30rpx;
+  margin-left: 5%;
+}
+
+.money button {
+  background: red;
+}
+
+.list {
+  width: 92%;
+  margin-left: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list_one {
+  width: 18%;
+  height: 80rpx;
+  border-radius: 10rpx;
+  background: #fdefef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  font-size: 23rpx;
+}
+
+.text {
+  font-size: 18rpx;
+}
+.bgcolor{
+  background:red !important;
+  color: white;
+}
+.cash{
+  font-size: 30rpx;
+}
+.coupon {
+  margin: 30rpx 0 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100rpx;
+  border-top: 20rpx solid #f7f7f7;
+  border-bottom: 20rpx solid #f7f7f7;
+}
+van-cell{
+  margin: 30rpx 0 0 0;
+  font-size: 30rpx;
+  font-weight: bold;
+  border-top: 20rpx solid #f7f7f7;
+  border-bottom: 20rpx solid #f7f7f7;
+}
+
+.coupon_text {
+  margin-left: 30rpx;
+  font-weight: bold;
+}
+
+.coupon_right {
+  display: flex;
+  align-items: center;
+  margin-right: 30rpx;
+  color: #ccc;
+}
+
+.coupon_right span {
+  margin-right: 20rpx;
+}
+
+.coupon_right image {
+  width: 20rpx;
+}
+
+.table {
+  width: 92%;
+  margin-left: 4%;
+}
+
+.th:nth-of-type(1) {
+  border-top: 1px solid #ccc !important;
+}
+
+.th {
+  width: 100%;
+  height: 60rpx;
+  border: 1px solid #ccc;
+  border-top: none;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.one {
+  width: 30%;
+  height: 100%;
+  border-right: 1px solid #ccc;
+}
+
+.tr {
+  line-height: 60rpx;
+}
+
+.tr span {
+  margin-left: 10rpx;
+}
+
+.color {
+  background: #f7f7f7;
+}
+
+.button {
+  margin: 60rpx 0 40rpx 0;
+  width: 92%;
+  margin-left: 4%;
+  border: 0.5rpx solid #ccc;
+  border-radius: 50rpx;
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+  box-shadow: 10rpx 10rpx 10rpx #fff1f1;
+}
+
+.message {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.message_one {
+  margin-left: 10rpx;
+  color: red;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+
+.message_two {
+  margin-left: 5rpx;
+  font-size: 25rpx;
+  color: #ccc;
+}
+
+.message_three {
+  margin-left: 10rpx;
+  font-size: 25rpx;
+  color: #ccc;
+}
+
+.wallet {
+  width: 25%;
+  text-align: center;
+  background: black;
+  color: #fff;
+  height: 100%;
+  line-height: 100rpx;
+}
+
+.wechat {
+  width: 25%;
+  text-align: center;
+  background: red;
+  color: #fff;
+  height: 100%;
+  line-height: 100rpx;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
