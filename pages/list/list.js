@@ -18,6 +18,7 @@ Page({
     })
     console.log()
   },
+ 
   /**
    * Lifecycle function--Called when page load
    */

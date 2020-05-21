@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/slider/slider",
+    "pages/add/add",
     "pages/list/list",
     "pages/getdetail/getdetail",
     "pages/index/index",
